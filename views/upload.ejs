@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Chart</title>
+</head>
+<body>
+  <h1>Upload Forex Chart</h1>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="chart" accept="image/*" required>
+    <button type="submit">Analyze</button>
+  </form>
+  <% if (result) { %>
+    <p><%= result %></p>
+  <% } %>
+</body>
+</html>
