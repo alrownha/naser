@@ -11,7 +11,7 @@ This is the approved reference for all future letter cards. Match it unless the 
   3. The middle is **empty** with a grass line, so a 3D-printed model can be glued on. Use `--drawing cow|bear` only when a drawing is asked for.
   4. The word with full harakat, e.g. `دُبّ`, `بَقَرَة` (Noto Naskh, red).
   5. `من صديقتكم ♥ <name>` for a girl, or `من صديقكم ♥ <name>` for a boy.
-  6. Instagram icon + `s.3d.ae`.
+  6. One line: Instagram logo + `s.3d.ae`, then WhatsApp logo + `+971 50 914 7566`.
 - **Ink-saving (always):** the cards are printed at home on white paper. Keep a white background with no large solid color areas: use outlines, thin strokes and small color accents instead of filled shapes. No dark or fully colored backgrounds.
 - **Delivery:** send both the PDF (exact A4) and a JPG (A4, 300 dpi). The user prints from a phone, which has no "actual size" option, so the page must already be exactly A4.
 
