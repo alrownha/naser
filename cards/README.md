@@ -4,14 +4,15 @@ This is the approved reference for all future letter cards. Match it unless the 
 
 ## Spec
 - **Sheet:** one A4 page (21 × 29.7 cm) with **4 cards** (2 × 2), all upright, with grey dashed cut lines between them.
-- **Card:** 10 × 14.8 cm (the largest size that fits 4 on A4). Cream background, orange dashed frame with **sharp (square) corners**.
+- **Card:** 10 × 14.8 cm (the largest size that fits 4 on A4). White background, orange dashed frame with **sharp (square) corners**.
 - **Top to bottom on each card:**
-  1. The letter in a green circle (Lalezar font).
+  1. The letter inside an outlined green circle (Lalezar font).
   2. A row with the letter and its three short vowels, e.g. `دَ دُ دِ` (Noto Naskh, green).
   3. The middle is **empty** with a grass line, so a 3D-printed model can be glued on. Use `--drawing cow|bear` only when a drawing is asked for.
   4. The word with full harakat, e.g. `دُبّ`, `بَقَرَة` (Noto Naskh, red).
   5. `من صديقتكم ♥ <name>` for a girl, or `من صديقكم ♥ <name>` for a boy.
   6. Instagram icon + `s.3d.ae`.
+- **Ink-saving (always):** the cards are printed at home on white paper. Keep a white background with no large solid color areas: use outlines, thin strokes and small color accents instead of filled shapes. No dark or fully colored backgrounds.
 - **Delivery:** send both the PDF (exact A4) and a JPG (A4, 300 dpi). The user prints from a phone, which has no "actual size" option, so the page must already be exactly A4.
 
 ## Usage
