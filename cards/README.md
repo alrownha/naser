@@ -1,0 +1,22 @@
+# Arabic letter cards — reference design
+
+This is the approved reference for all future letter cards. Match it unless the user asks otherwise.
+
+## Spec
+- **Sheet:** one A4 page (21 × 29.7 cm) with **4 cards** (2 × 2), all upright, with grey dashed cut lines between them.
+- **Card:** 10 × 14.8 cm (the largest size that fits 4 on A4). Cream background, orange dashed frame with **sharp (square) corners**.
+- **Top to bottom on each card:**
+  1. The letter in a green circle (Lalezar font).
+  2. A row with the letter and its three short vowels, e.g. `دَ دُ دِ` (Noto Naskh, green).
+  3. The middle is **empty** with a grass line, so a 3D-printed model can be glued on. Use `--drawing cow|bear` only when a drawing is asked for.
+  4. The word with full harakat, e.g. `دُبّ`, `بَقَرَة` (Noto Naskh, red).
+  5. `من صديقتكم ♥ <name>` for a girl, or `من صديقكم ♥ <name>` for a boy.
+  6. Instagram icon + `s.3d.ae`.
+- **Delivery:** send both the PDF (exact A4) and a JPG (A4, 300 dpi). The user prints from a phone, which has no "actual size" option, so the page must already be exactly A4.
+
+## Usage
+```sh
+pip install playwright pillow
+python3 cards/make_card.py --letter د --word "دُبّ" --name "سالم المزروعي" --gender m
+python3 cards/make_card.py --letter ب --word "بَقَرَة" --name "شوق الرواحي" --gender f
+```
