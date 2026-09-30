@@ -13,7 +13,7 @@ This is the approved reference for all future letter cards. Match it unless the 
   5. `من صديقتكم ♥ <name>` for a girl, or `من صديقكم ♥ <name>` for a boy.
   6. One line: Instagram logo + `s.3d.ae`, then WhatsApp logo + `+971 50 914 7566`.
 - **Ink-saving (always):** the cards are printed at home on white paper. Keep a white background with no large solid color areas: use outlines, thin strokes and small color accents instead of filled shapes. No dark or fully colored backgrounds.
-- **Delivery:** send both the PDF (exact A4) and a JPG (A4, 300 dpi). The user prints from a phone, which has no "actual size" option, so the page must already be exactly A4.
+- **Delivery:** send **PNG only**: one card per file for Cricut Print Then Cut. Solid white background, cropped 1 mm outside the dotted frame (about 9.28 × 14.06 cm at 300 dpi), so the Cricut cuts one clean rectangle around the frame. No PDF or A4 sheet unless asked.
 
 ## Usage
 ```sh
