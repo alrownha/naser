@@ -2,6 +2,8 @@
 
 This is the approved reference for all future letter cards. Match it unless the user asks otherwise.
 
+**Main rule: every file delivered goes straight into Cricut Design Space (Print Then Cut).** So each deliverable is one PNG per card, solid white background, ready to upload and cut with no editing.
+
 ## Spec
 - **Sheet:** one A4 page (21 × 29.7 cm) with **4 cards** (2 × 2), all upright, with grey dashed cut lines between them.
 - **Card:** 10 × 14.8 cm (the largest size that fits 4 on A4). White background, orange dashed frame with **sharp (square) corners**.
