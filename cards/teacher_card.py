@@ -46,12 +46,12 @@ def pencil_slot(x, label):
         g+=f'<line x1="{x-1.5}" y1="{y}" x2="{x+10.5}" y2="{y}" stroke="#111" stroke-width="0.7"/>'
         g+=f'<text x="{x+4.5}" y="{y-2}" text-anchor="middle" font-family="Tajawal" font-size="2.6" fill="#777">{label}</text>'
     return g
-def frame(): return '<rect x="3" y="3" width="124" height="194" rx="5" fill="#fff" stroke="#111" stroke-width="0.8"/><rect x="5.5" y="5.5" width="119" height="189" rx="3.5" fill="none" stroke="#111" stroke-width="0.35" stroke-dasharray="2 1.6"/>'
+def frame(): return '<rect x="2" y="2" width="126" height="196" rx="6" fill="#fff"/><rect x="3" y="3" width="124" height="194" rx="5" fill="#fff" stroke="#111" stroke-width="0.8"/><rect x="5.5" y="5.5" width="119" height="189" rx="3.5" fill="none" stroke="#111" stroke-width="0.35" stroke-dasharray="2 1.6"/>'
 HT='fill="#fff" stroke="#111" stroke-width="0.6" stroke-linejoin="round" paint-order="stroke" font-family="Lalezar"'
 def wrap(body,lang):
     return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>
 @font-face{{font-family:Lalezar;src:url({F}/lalezar-latin.woff2)}}@font-face{{font-family:Lalezar;src:url({F}/lalezar.ttf);unicode-range:U+0600-06FF,U+FB50-FDFF,U+FE70-FEFF}}@font-face{{font-family:Tajawal;src:url({F}/tajawal.ttf)}}@font-face{{font-family:Naskh;src:url({F}/naskh.ttf)}}
-html,body{{margin:0;width:130mm;height:200mm;background:#fff}}svg{{display:block}}</style></head><body>
+html,body{{margin:0;width:130mm;height:200mm;background:transparent}}svg{{display:block}}</style></head><body>
 <svg width="130mm" height="200mm" viewBox="0 0 130 200" xmlns="http://www.w3.org/2000/svg">{body}</svg></body></html>'''
 # ---------- Arabic ----------
 cx=76
@@ -81,10 +81,10 @@ with sync_playwright() as pw:
     pg=b.new_page(viewport={'width':492,'height':756},device_scale_factor=3.125)
     for n in ('ar','en'):
         pg.goto(pathlib.Path(f'{n}.html').resolve().as_uri()); pg.wait_for_timeout(500)
-        pg.screenshot(path=f'{n}.png',clip={'x':0,'y':0,'width':491.34,'height':755.9})
+        pg.screenshot(path=f'{n}.png',omit_background=True,clip={'x':0,'y':0,'width':491.34,'height':755.9})
     b.close()
 from PIL import Image
 pxmm=1535/130
 for n,out in (('ar','تلوين-شكراً-معلمتي.png'),('en','coloring-thank-you-teacher.png')):
-    im=Image.open(f'{n}.png').convert('RGB'); c=round(2*pxmm)
+    im=Image.open(f'{n}.png').convert('RGBA'); c=round(2*pxmm)
     im=im.crop((c,c,im.width-c,im.height-c)); im.save(out,dpi=(300,300)); print(out,im.size,'%.2f x %.2f cm'%(im.width/pxmm/10,im.height/pxmm/10))
