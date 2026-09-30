@@ -1,0 +1,5 @@
+<svg class="cow" viewBox="0 0 300 40" xmlns="http://www.w3.org/2000/svg">
+ <path d="M8 22 q17 -12 34 0 t34 0 t34 0 t34 0 t34 0 t34 0 t34 0 t34 0" fill="none" stroke="#2f86c6" stroke-width="3" stroke-linecap="round"/>
+ <path d="M24 32 q17 -9 34 0 t34 0 t34 0 t34 0 t34 0 t34 0 t34 0" fill="none" stroke="#8cc8ea" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 5"/>
+ <g fill="none" stroke="#8cc8ea" stroke-width="2"><circle cx="40" cy="8" r="3"/><circle cx="50" cy="3" r="2"/><circle cx="258" cy="7" r="3"/><circle cx="249" cy="2.5" r="1.8"/></g>
+</svg>

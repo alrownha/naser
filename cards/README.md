@@ -8,7 +8,7 @@ This is the approved reference for all future letter cards. Match it unless the 
 - **Top to bottom on each card:**
   1. The letter inside an outlined green circle (Lalezar font).
   2. A row with the letter and its three short vowels, e.g. `دَ دُ دِ` (Noto Naskh, green).
-  3. The middle is **empty** with a grass line, so a 3D-printed model can be glued on. Use `--drawing cow|bear` only when a drawing is asked for.
+  3. The middle is **empty** with a grass line, so a 3D-printed model can be glued on. For sea animals (dolphin, fish, whale…) use `--drawing sea` so the base is blue waves instead of grass. Use `--drawing cow|bear` only when a drawing is asked for.
   4. The word with full harakat, e.g. `دُبّ`, `بَقَرَة` (Noto Naskh, red).
   5. `من صديقتكم ♥ <name>` for a girl, or `من صديقكم ♥ <name>` for a boy.
   6. One line: Instagram logo + `s.3d.ae`, then WhatsApp logo + `+971 50 914 7566`.
