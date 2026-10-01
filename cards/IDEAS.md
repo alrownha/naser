@@ -49,3 +49,31 @@ transparent outside the cut line, ink-saving outlines, no helper text on the art
 - Lollipop holder shaped like a planet (stick through two slits).
 - Treat-box belly band with the student's name for class parties.
 - Round "mission patch" sticker set (4 designs on one A4 sticker sheet).
+
+## Where people design and sell Cricut products (and what they sell)
+
+**Design tools sellers use**
+- **Canva → PNG → Design Space** is the common workflow: lay out the card in Canva with brand
+  colours, name, contact and a QR code, export a high-resolution PNG with a transparent
+  background, upload as Print Then Cut. Our pipeline does the same thing from code.
+- **Design Space itself** for the final step only: size, duplicate, flatten, Make It.
+- Marketplaces for ready files (good to study layouts, not to copy): **Etsy** (largest),
+  **Creative Fabrica**, **Design Bundles**, **So Fontsy**, **The Hungry JPEG**, **Dreaming Tree**
+  (3D paper), **SVG Collections**; Pinterest boards "keychain card template", "keychain
+  backing card".
+
+**What sells, by season (Etsy best-seller patterns)**
+- Back to school / teacher appreciation: thank-you cards, cupcake toppers, gift tags
+  ("Here's to a bright school year"), bag toppers ("Thank you for all you do"), pencil and
+  pen tags, gift-card holders shaped like a pencil or apple.
+- Small-business packaging: keychain display cards with logo + hole, thank-you cards for
+  orders, fold-out business cards, round logo stickers to seal bags.
+- Events: treat-bag toppers in 5 sizes, lollipop holders, party favour tags, name labels.
+- Typical prices for a digital template: USD 1.5–6; physical finished cards sell as packs.
+
+**Conventions the sellers follow (worth matching)**
+- Every card carries the shop name/handle and one contact line; many add a QR code.
+- Keychain cards: logo at top, hole centred, product in the middle, a thin footer.
+- Toppers and tags come in a **set of sizes** so one design fits several bags.
+- Files are delivered as PNG (300 dpi, transparent) + SVG; buyers expect Canva-editable text.
+- Thank-you cards are small (A7, 7.4 × 10.5 cm) and printed 8-up on A4.
