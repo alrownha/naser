@@ -1,0 +1,13 @@
+<svg class="cow" viewBox="0 0 220 110" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#ffffff" stroke="#2f6f9f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M54 84 C46 74 34 66 22 66 C30 72 36 78 40 84 C34 90 30 98 32 104 C40 98 48 92 58 88 Z"/>
+  <path d="M124 26 L136 4 L152 22 Z"/>
+  <path d="M50 80 C70 30 132 12 178 36 C190 42 198 52 196 58 L178 60 C162 70 124 78 92 72 C76 69 62 72 52 82 Z"/>
+  <path d="M116 66 L130 84 L100 74 Z"/>
+ </g>
+ <circle cx="170" cy="45" r="3.2" fill="#1d2b4f"/>
+ <path d="M180 56 q-6 3 -12 0" fill="none" stroke="#2f6f9f" stroke-width="2.2" stroke-linecap="round"/>
+ <path d="M8 96 q17 -12 34 0 t34 0 t34 0 t34 0 t34 0 t34 0" fill="none" stroke="#2f86c6" stroke-width="3" stroke-linecap="round"/>
+ <path d="M24 105 q17 -9 34 0 t34 0 t34 0 t34 0 t34 0" fill="none" stroke="#8cc8ea" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 5"/>
+ <g fill="none" stroke="#8cc8ea" stroke-width="2"><circle cx="196" cy="24" r="3"/><circle cx="206" cy="14" r="2"/><circle cx="16" cy="44" r="2.5"/></g>
+</svg>
