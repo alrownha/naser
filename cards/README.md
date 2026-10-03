@@ -23,3 +23,6 @@ pip install playwright pillow
 python3 cards/make_card.py --letter د --word "دُبّ" --name "سالم المزروعي" --gender m
 python3 cards/make_card.py --letter ب --word "بَقَرَة" --name "شوق الرواحي" --gender f
 ```
+
+## UAE National Day cards (`cards/uae_card.py`)
+Two Cricut-ready PNGs per child in `cards/uae/`: a **badge backer** (9.4 × 14.2 cm, the clicker badge is glued in the empty middle) and a **keychain header card** (7.2 × 10.2 cm, punch the drawn circle at the top so the keyring hangs through it). Flag colours as thin outlines only, "اليوم الوطني ٥٥ / UAE NATIONAL DAY", "روح الاتحاد · Spirit of the Union", the from-line and the contact line. Run `python3 cards/uae_card.py` (optionally with short names, e.g. `شوق`).
